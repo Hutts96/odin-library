@@ -106,24 +106,3 @@ confirmButton.addEventListener("click", (e) => {
     addBookToLibrary(myLibrary, temp);
     dialog.close();
 });
-
-/* const testBook = new Book("Vadim Blyat", "Boris", 1944, true);
-const library =
-    [{
-        "title": "Book1",
-        "author": "Author1",
-        "nrOfPages": 1,
-        "isRead": true
-    },
-    {
-        "title": "Book2",
-        "author": "Author2",
-        "nrOfPages": 2,
-        "isRead": false
-    },
-    {
-        "title": "Book3",
-        "author": "Author3",
-        "nrOfPages": 3,
-        "isRead": true
-    }]; */
