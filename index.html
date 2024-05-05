@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="create-button">
+    <div>+</div>
+  </div>
+  <div class="cards-container"></div>
+  <dialog>
+    <button class="close-button" value="cancel" formmethod="dialog">X</button>
+    <p>Add new book</p>
+    <form method="dialog">
+      <input class="dialog-book-title" type="text" placeholder="Title">
+      <input class="dialog-book-author" type="text" placeholder="Author">
+      <input class="dialog-book-pages" type="number" placeholder="Number of pages">
+      <select class="dialog-book-read" name="readStatus">
+        <option value="true">Read</option>
+        <option value="false">Not yet read</option>
+      </select>
+      <button class="confirm-button">Create</button>
+    </form>
+  </dialog>
+</body>
+
+</html>
