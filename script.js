@@ -3,14 +3,6 @@ function Book(title = "No title", author = "No author", nrOfPages = 0, isRead = 
     this.author = author;
     this.nrOfPages = nrOfPages;
     this.isRead = isRead;
-    this.info = function () {
-        return (
-            this.title + " by " +
-            this.author + ", " +
-            this.nrOfPages + " pages, " +
-            (this.isRead ? "read" : "not yet read")
-        );
-    }
 }
 
 function addBookToLibrary(library, book) {
